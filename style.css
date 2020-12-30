@@ -1,4 +1,45 @@
 body {
     background: url("img/fundo.png");
+    font-family:sans-serif, Verdana, Geneva, Tahoma;
 }
 
+.container {
+    width: 900px;
+    height: 100%;
+    background-color: #F5F5DC;
+}
+
+.corFundo div{
+    background-color: #a5b5b8;
+}
+
+.navegacao a{
+    color:#394f52;
+    text-decoration: none;
+}
+
+.navegacao {
+    text-align: left center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navegacao span {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.conteudo {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.conteudo h3 {
+    color: #63631c;
+}
+
+.footer {
+    width: 900px;
+    height: 100%;
+    text-align: center;
+}
