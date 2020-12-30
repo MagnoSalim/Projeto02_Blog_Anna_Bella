@@ -1,36 +1,28 @@
 body {
-    background: url("img/fundo.png");
+    background: #d2d2c1 url("img/fundo.png");
     font-family:sans-serif, Verdana, Geneva, Tahoma;
 }
 
 .container {
     width: 900px;
-    height: 100%;
-    background-color: #F5F5DC;
 }
 
-.corFundo div{
-    background-color: #a5b5b8;
-}
-
-.navegacao a{
-    color:#394f52;
-    text-decoration: none;
-}
-
-.navegacao {
+.menu{
+    background-color: #c5c5b2;
     text-align: left center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 
-.navegacao span {
-    padding-left: 20px;
+a{
+    color:#4b566a;
+    text-decoration: none;
     font-weight: bold;
+    padding: 5px;
 }
 
 .conteudo {
-    padding-left: 20px;
+    background-color: #e8e8d9;
+    padding: 15px;
     padding-bottom: 20px;
 }
 
@@ -38,8 +30,10 @@ body {
     color: #63631c;
 }
 
+.img-Campanha {
+    border: 10px solid #c3c3ae;
+}
+
 .footer {
-    width: 900px;
-    height: 100%;
     text-align: center;
 }
